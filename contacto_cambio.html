@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div>
+		<img id="logo" src="assets/1d_logo.png" alt="One Direction logo">
+		<ul class="list">
+			<li>
+				<a class="item" href="index_cambio.html">Inicio</a>
+			</li>
+			<li>
+				<a class="item" href="integrantes.html">Integrantes</a> 
+			</li>
+			<li>
+				<a class="item" href="discografia.html">Discografía</a>
+			</li>
+			<li>
+				<a class="item" href="giras.html">Giras</a>
+			</li>
+			<li>
+				<a class="item" href="contacto_cambio.html">Contacto</a>
+			</li>
+		</ul>
+	</div>
+	
+	<form class="contact" action="contacto.html" method="POST" enctype="multipart/form-data">
+		<input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="contact__animacion">
+		<input type="text" name="mail" placeholder="Mail" class="contact__animacion">
+
+		<label>Seleccione estado actual</label> 
+			<select>
+			<option value="fe">Feliz</option>
+			<option value="tr">Triste</option>
+			</select>
+
+		<label>¿Querés recibir un mensaje?</label>	
+		<input type="checkbox" name="mensaje" value="web">
+
+		<textarea name="mensaje" placeholder="Comentarios" class="contact__animacion"></textarea>
+
+		<input type="submit" name="enviar" value="ENVIAR">
+		<input type="reset" name="limpiar" value="Limpiar">
+	</form>
+
+	<footer> 
+		<ul class="footer__titulo">REDES SOCIALES
+			<li class="footer__info">Instagram: onedirection</li> 
+
+			<li class="footer__info">Twitter: onedirection</li> 
+
+			<li class="footer__info">Youtube: One Direction</li> 
+
+			<li class="footer__info">Spotify: One Direction</li> 
+		</ul>
+	</footer>
+</body>
+</html>
